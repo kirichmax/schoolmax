@@ -1,13 +1,125 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{ 
+  background-color: #F3F0E7;
+}
+
+header{
+  background-color: #222330;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  
+  border-bottom: solid burlywood 4px;
+}
+
+header h1{
+  font-family: 'FRANKLIN GOTHIC MEDIUM';
+  font-size: 50px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 15px;
+  display: inline;
+}
+.entrance{
+  text-align: center;
+}
+form{
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #222330;
+  border-radius: 10px;
+  border: solid burlywood 4px;
+}
+form input{
+  height: 25px;
+  width: 250px;
+  font-size: 20px;
+  border: solid burlywood 4px;
+  border-radius: 10px;
+  font-family: 'FRANKLIN GOTHIC MEDIUM';
+}
+form button{
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px 15px 10px;
+  border: solid burlywood 4px;
+  border-radius: 10px;
+  font-family: 'FRANKLIN GOTHIC MEDIUM'
+}
+form .up{
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0 0;
+}
+.classes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #222330;
+  font-size: 20px;
+  padding: 0 5px 0 5px;
+  color: burlywood;
+  border: burlywood solid 4px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  font-family: comic sans ms;
+}
+.objects{
+  display: inline-block;
+  background-color: #222330;
+  text-align: center;
+  font-size: 20px;
+  padding: 0 5px 0 5px;
+  color: burlywood;
+  border: burlywood solid 4px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+.page{
+  display: flex;
+  height: calc(100%);
+}
+.page p{
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  font-family: comic sans ms;
+  flex-direction: column;
+}
+.classes button{
+  background-color:#222330;
+  color: burlywood;
+  padding: 5px;
+}
+img{
+  width: 200px
+}
+.info{
+  width: calc(100%);
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  font-family: comic sans ms;
+  flex-direction: column;
+  align-items: center
+}
+button{
+  border: none; 
+  outline: none;
+  cursor: pointer;
+transition: all 0.3s ease;
+}
+button:hover {
+  color: #3e8e41; /* Цвет фона при наведении */
+}
+a{
+  text-decoration: none;
+  color: burlywood;
 }
