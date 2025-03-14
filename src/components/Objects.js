@@ -13,13 +13,13 @@ const Objects = () => {
       <p><Link to='/math'>ОБЗР</Link></p>
       <p><Link to='/math'>Обществознание</Link></p>
       <p><Link to='/math'>Изобразительное исскуство</Link></p>
-      <p><Link to='/math'>Разговоры о важном</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
-      <p><Link to='/math'>Математика</Link></p>
+      <p><a href = 'https://разговорыоважном.рф/'>Разговоры о важном</a></p>
+      <p><Link to='/math'>География</Link></p>
+      <p><Link to='/math'>Биология</Link></p>
+      <p><Link to='/math'>Химия</Link></p>
+      <p><Link to='/math'>Литература</Link></p>
+      <p><Link to='/math'>Технология</Link></p>
+      <p><Link to='/math'>Физическая культура</Link></p>
     </div>
   );
 };
