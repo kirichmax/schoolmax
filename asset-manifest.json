@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/schoolmax/static/css/main.5bc9ecfe.css",
-    "main.js": "/schoolmax/static/js/main.74cb8a28.js",
+    "main.css": "/schoolmax/static/css/main.7acb8bae.css",
+    "main.js": "/schoolmax/static/js/main.b6fd90b3.js",
     "static/media/Max.png": "/schoolmax/static/media/Max.6d09f26c94becc11e8bc.png",
     "index.html": "/schoolmax/index.html",
-    "main.5bc9ecfe.css.map": "/schoolmax/static/css/main.5bc9ecfe.css.map",
-    "main.74cb8a28.js.map": "/schoolmax/static/js/main.74cb8a28.js.map"
+    "main.7acb8bae.css.map": "/schoolmax/static/css/main.7acb8bae.css.map",
+    "main.b6fd90b3.js.map": "/schoolmax/static/js/main.b6fd90b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bc9ecfe.css",
-    "static/js/main.74cb8a28.js"
+    "static/css/main.7acb8bae.css",
+    "static/js/main.b6fd90b3.js"
   ]
 }
